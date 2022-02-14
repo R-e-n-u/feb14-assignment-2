@@ -1,0 +1,10 @@
+def getsum(n):
+    sum=0
+    while(n!=0):
+        sum=sum+(n%10)
+        n=n//10
+    return sum
+n=12231
+print(getsum(n))
+output:
+9
